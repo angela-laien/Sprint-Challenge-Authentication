@@ -1,0 +1,17 @@
+What is the purpose of using sessions?
+
+    Remember the user login and keep auth credential valid for a limited amount of time.
+
+What does bcrypt do to help us store passwords in a secure manner.
+
+    Hashes and covers the real passwords.
+
+What does bcrypt do to slow down attackers?
+
+    It hashes the passwords many rounds.
+
+What are the three parts of the JSON Web Token?
+
+    * Header: type of token like JWT.
+    * Payload: user data.
+    * Signature: take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
